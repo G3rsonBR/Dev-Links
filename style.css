@@ -38,7 +38,7 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
+  margin: 0 auto;
   padding: 0 24px;
 }
 
@@ -77,14 +77,14 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-out .4s;
+  animation: slide-out 0.4s;
 }
 
 .light #switch button {
   animation: slide-in 0.4s forwards;
 }
 
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 
